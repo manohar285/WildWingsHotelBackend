@@ -7,7 +7,7 @@ RUN mvn clean package -DskipTests
 # Step 2: Run the application using Java 21 JRE
 FROM eclipse-temurin:21-jre-jammy
 WORKDIR /app
-COPY --from=build /app/target/ems-backend-0.0.1-SNAPSHOT.jar app.jar
+COPY --from=build /app/target/hms-0.0.1-SNAPSHOT.jar app.jar
 EXPOSE 8080
 ENTRYPOINT ["java", "-jar", "app.jar"]
 
