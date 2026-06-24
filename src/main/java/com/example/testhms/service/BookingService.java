@@ -18,9 +18,10 @@ import java.util.UUID;
 @Service
 @RequiredArgsConstructor
 @Transactional
+
 public class BookingService {
     private final BookingRepository bookingRepo;
-    private final RoomRepository roomRepo;
+    private final RoomRepository    roomRepo;
 
     public Booking createBooking(BookingDto.BookingRequest req) {
         Room room = roomRepo.findById(req.getRoomId())
