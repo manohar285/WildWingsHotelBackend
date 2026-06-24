@@ -7,7 +7,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 // controller/AuthController.java
-@CrossOrigin(origins = "https://wildwingshotel1.onrender.com")
+@CrossOrigin(origins = "https://wild-wings-hotel.vercel.app/")
 @RestController
 @RequestMapping("/api/auth")
 @RequiredArgsConstructor

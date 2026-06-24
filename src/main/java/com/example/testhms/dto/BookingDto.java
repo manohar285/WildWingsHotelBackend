@@ -6,10 +6,11 @@ import lombok.Setter;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;
-
+  @Getter 
+  @Setter
 // dto/BookingDto.java
 public class BookingDto {
-    @Getter @Setter
+  
     public static class BookingRequest {
         private Long roomId;
         private LocalDate checkInDate, checkOutDate;

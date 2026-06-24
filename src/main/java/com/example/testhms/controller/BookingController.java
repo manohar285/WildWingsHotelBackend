@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 // controller/BookingController.java
-@CrossOrigin(origins = "https://wildwingshotel1.onrender.com")
+@CrossOrigin(origins = "https://wild-wings-hotel.vercel.app/")
 @RestController
 @RequestMapping("/api/bookings")
 @RequiredArgsConstructor

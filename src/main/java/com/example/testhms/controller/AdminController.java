@@ -14,7 +14,7 @@ import java.util.List;
 import java.util.Map;
 
 // controller/AdminController.java
-@CrossOrigin(origins = "https://wildwingshotel1.onrender.com")
+@CrossOrigin(origins = "https://wild-wings-hotel.vercel.app/")
 @RestController
 @RequestMapping("/api/admin")
 @RequiredArgsConstructor

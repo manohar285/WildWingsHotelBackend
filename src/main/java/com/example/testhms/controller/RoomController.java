@@ -11,7 +11,7 @@ import java.time.LocalDate;
 import java.util.List;
 
 // controller/RoomController.java
-@CrossOrigin(origins = "https://wildwingshotel1.onrender.com")
+@CrossOrigin(origins = "https://wild-wings-hotel.vercel.app/")
 @RestController
 @RequestMapping("/api/rooms")
 @RequiredArgsConstructor
