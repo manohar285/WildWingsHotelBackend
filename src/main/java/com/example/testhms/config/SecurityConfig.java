@@ -73,7 +73,8 @@ public class SecurityConfig {
     public CorsConfigurationSource corsConfigurationSource() {
         CorsConfiguration config = new CorsConfiguration();
         config.setAllowedOrigins(List.of(
-                "http://localhost:5173"    // Vite dev (if used)
+                "http://localhost:5000",
+                "https://wild-wings-hotel.vercel.app/"    // Vite dev (if used)
         ));
         config.setAllowedMethods(List.of("GET", "POST", "PUT", "DELETE", "OPTIONS"));
         config.setAllowedHeaders(List.of("*"));
